@@ -38,9 +38,7 @@ public class User {
 	 * @return Item 배열
 	 */
 	public Item[] getItems() {
-		Item[] savedItems = new Item[position];
-		Arrays.copyOfRange(savedItems, 0, position);
-		return savedItems;
+		return Arrays.copyOfRange(items, 0, position);
 	}
 	
 	/**
