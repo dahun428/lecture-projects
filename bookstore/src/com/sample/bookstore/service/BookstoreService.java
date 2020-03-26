@@ -118,6 +118,16 @@ public class BookstoreService {
 	public void retrieveAllRentals() {
 		
 	}
+
+	public void retrieveRentalsByUserNo(int userNo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void retrieveRentalsByBookNo(int bookNo) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
