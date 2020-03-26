@@ -26,7 +26,7 @@ public class OrderRepository {
 	 * @param userId
 	 * @return
 	 */
-	public Order[] getOrderByUserId(String userId) {
+	public Order getOrderByUserId(String userId) {
 		return null;
 	}
 	
